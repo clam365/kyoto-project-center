@@ -40,7 +40,7 @@ export default function Mission() {
                         className="mt-4 pb-2 flex justify-between border-b border-b-black hover:border-b-gray-500 hover:text-gray-500 transition"
                         href="/projects"
                     >
-                        <h1>See student projects</h1>
+                        <h1>See all student projects</h1>
                         <ArrowRight />
                     </Link>
                 </motion.div>

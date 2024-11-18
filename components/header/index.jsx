@@ -18,9 +18,9 @@ export default function index() {
                 <motion.div variants={opacity} animate={!isActive ? "open" : "closed"} className={styles.shopContainer}>
                     <p className={styles.shop}>Shop</p>
                     <div className={styles.el}>
-                        <Link href={"#mission"}>Mission</Link>
+                        <Link href={"/#mission"}>Mission</Link>
                         <Link href={"/projects"}>Projects</Link>
-                        <Link href={"#contact"}>Contact</Link>
+                        <Link href={"/#contact"}>Contact</Link>
                     </div>
                 </motion.div>
 
