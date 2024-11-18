@@ -13,10 +13,6 @@ const links = [
         href: "/",
     },
     {
-        title: "Mission",
-        href: "#mission",
-    },
-    {
         title: "Projects",
         href: "/projects",
     },
@@ -25,9 +21,10 @@ const links = [
         href: "/projectcenter",
     },
     {
-        title: "Contact",
-        href: "#contact",
-    }
+        title: "Open-Data",
+        href: "/opendata",
+    },
+
 ]
 
 export default function Index() {
