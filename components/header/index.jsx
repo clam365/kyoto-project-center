@@ -8,6 +8,7 @@ import Nav from './nav';
 
 export default function index() {
 
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [isActive, setIsActive] = useState(false);
 
     return (
@@ -29,8 +30,8 @@ export default function index() {
                 }} className={styles.el}>
                     <div className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}></div>
                     <div className={styles.label}>
-                        <motion.p variants={opacity} animate={!isActive ? "open" : "closed"}>Menu</motion.p>
-                        <motion.p variants={opacity} animate={isActive ? "open" : "closed"}>Close</motion.p>
+                        <motion.p variants={opacity} animate={!isActive ? "open" : "closed"}></motion.p>
+                        <motion.p variants={opacity} animate={isActive ? "open" : "closed"}></motion.p>
                     </div>
                 </div>
             </div>
