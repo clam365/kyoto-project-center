@@ -30,7 +30,7 @@ export default function Mission() {
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                    Since 2019, WPI students have conducted meaningful projects to address
+                    Since 2018, WPI students have conducted meaningful projects to address
                     challenges in the city of Kyoto through a blend of cultural understanding
                     and technological innovation. These projects span a wide range of topics,
                     from urban revitalization and sustainable farming practices to augmented
