@@ -50,13 +50,13 @@ export default function info() {
                 </div>
                 <div className={"grid grid-cols-1 lg:grid-cols-2 mt-24 gap-x-8"}>
                     <div>
-                        <h1>Kyoto, the "heart of Japan," offers a unique blend of traditional culture and
+                        <h1>Kyoto, the &#34;heart of Japan,&#34; offers a unique blend of traditional culture and
                             modern innovation, making it the perfect location for WPI students to engage in
                             impactful projects. Since 2018, students have worked on projects ranging from
                             augmented reality tourism to sustainable farming, urban revitalization, and
                             international education programs. Students will enjoy access to kitchen facilities
                             to explore Japanese cuisine, which traditionally features rice and noodles but now
-                            includes diverse options like yakiniku and hamburgers. With Kyoto's efficient
+                            includes diverse options like yakiniku and hamburgers. With Kyoto&#39;s efficient
                             public transportation and bike rental options, getting around the city is easy,
                             while some projects may require overnight travel, covered by the program fee.
                             The city’s humid subtropical climate, with September temperatures ranging from 71°F
