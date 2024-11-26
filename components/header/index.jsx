@@ -14,13 +14,13 @@ export default function index() {
     return (
         <div className={styles.header}>
             <div className={styles.bar}>
-                <Link href="/">Kyoto Project Center</Link>
+                <Link href="/" className={"text-lg"}>Kyoto Project Center</Link>
                 <motion.div variants={opacity} animate={!isActive ? "open" : "closed"} className={styles.shopContainer}>
                     <p className={styles.shop}>Shop</p>
                     <div className={styles.el}>
-                        <Link href={"/#mission"}>Mission</Link>
-                        <Link href={"/projects"}>Projects</Link>
-                        <Link href={"/#contact"}>Contact</Link>
+                        <Link href={"/#mission"} className={"hidden md:block"}>Mission</Link>
+                        <Link href={"/projects"} className={"hidden md:block"}>Projects</Link>
+                        <Link href={"/#contact"} className={"hidden md:block"}>Contact</Link>
                     </div>
                 </motion.div>
 

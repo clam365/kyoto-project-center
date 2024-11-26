@@ -7,7 +7,7 @@ export default function Hero() {
         <div>
             <div className="flex justify-end">
                 <motion.p
-                    className="text-black text-3xl w-3/4 my-16 font-[500] mr-4"
+                    className="text-black text-2xl lg:text-3xl w-3/4 my-16 font-[500] mr-4"
                     initial={{ opacity: 0, x: -25 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ type: "spring", stiffness: 25, damping: 12 }}

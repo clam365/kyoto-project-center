@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header/>
-        <main style={{ paddingTop: "60px" }}>
+        <main className={" pt-6 md:pt-12"}>
             {children}
         </main>
       </body>
