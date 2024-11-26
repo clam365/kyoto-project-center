@@ -1,4 +1,5 @@
 import Project from "@/components/landing-page/project-components/project"
+import ViewProjects from "@/components/landing-page/project-components/viewprojects"
 export default function projects() {
     return(
         <div className={"p-10 py-12 space-y-16"}>
@@ -30,7 +31,7 @@ export default function projects() {
                 description="Promoting local businesses in the Keihanshichijo Area to tourists through research on tourism trends, multinational corporations, and interviews with business owners, culminating in an interactive map and recommendations for expansion and promotion."
                 linkHref="https://digital.wpi.edu/concern/student_works/5425kd19g?locale=en"
             />
-
+            <ViewProjects/>
         </div>
     )
 }
