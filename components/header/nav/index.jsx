@@ -6,39 +6,24 @@ import { height } from '../anim';
 import Body from './Body';
 import Footer from './Footer';
 
-
 const links = [
-    {
-        title: "Home",
-        href: "/",
-    },
-    {
-        title: "Projects",
-        href: "/projects",
-    },
-    {
-        title: "Site-Info",
-        href: "/projectcenter",
-    },
-    {
-        title: "Open-Data",
-        href: "/opendata",
-    },
+    { title: "Home", href: "/" },
+    { title: "Projects", href: "/projects" },
+    { title: "Site-Info", href: "/projectcenter" },
+    { title: "Open-Data", href: "/opendata" },
+];
 
-]
-
-export default function Index() {
-
-    const [selectedLink, setSelectedLink] = useState({isActive: false, index: 0});
+export default function Nav({ setIsActive }) {
+    const [selectedLink, setSelectedLink] = useState({ isActive: false, index: 0 });
 
     return (
         <motion.div variants={height} initial="initial" animate="enter" exit="exit" className={styles.nav}>
             <div className={styles.wrapper}>
                 <div className={styles.container}>
-                    <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink}/>
+                    <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink} setIsActive={setIsActive} />
                     <Footer />
                 </div>
             </div>
         </motion.div>
-    )
+    );
 }

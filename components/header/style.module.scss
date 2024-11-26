@@ -25,7 +25,7 @@
     position: relative;
 
     p {
-      margin: 0px;
+      margin: 0;
     }
 
     a {
@@ -66,6 +66,7 @@
         width: 22.5px;
         position: relative;
         pointer-events: none;
+
 
         &::after,
         &::before {
