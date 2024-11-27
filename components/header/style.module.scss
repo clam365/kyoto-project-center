@@ -66,7 +66,7 @@
 
       .burger {
         width: 30px;
-        height: 4px;
+        height: 2px;
         position: relative;
         pointer-events: none;
         transition: transform 0.3s ease-in-out;
@@ -74,7 +74,7 @@
         &::after,
         &::before {
           content: "";
-          height: 4px;
+          height: 2px;
           width: 100%;
           background-color: black;
           position: absolute;
@@ -82,11 +82,11 @@
         }
 
         &::after {
-          top: -8px;
+          top: -6px;
         }
 
         &::before {
-          top: 8px;
+          top: 6px;
         }
       }
 
@@ -102,13 +102,6 @@
         }
       }
 
-      &:hover .burger {
-        transform: scale(1.1);
-      }
-
-      &:hover {
-        background-color: rgba(0, 0, 0, 0.1);
-      }
     }
 
   }
