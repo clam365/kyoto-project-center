@@ -8,7 +8,7 @@ const Project = ({
                      imageAlt,
                      title,
                      year,
-                     description,
+                     authors,
                      linkHref,
                  }) => {
     return (
@@ -25,7 +25,7 @@ const Project = ({
                 </div>
 
                 <div className="relative ">
-                    <h1 className="hidden lg:block text-md">{description}</h1>
+                    <h1 className="hidden lg:block text-md">{authors}</h1>
                     <Link
                         className="lg:absolute lg:bottom-0 lg:left-0 w-full mt-4 pb-2 flex justify-between border-b border-b-black hover:border-b-gray-500 hover:text-gray-500 transition"
                         href={linkHref}
@@ -45,7 +45,7 @@ Project.propTypes = {
     title: PropTypes.string.isRequired,
     subtitle: PropTypes.string.isRequired,
     year: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    authors: PropTypes.string.isRequired,
     linkHref: PropTypes.string.isRequired,
 };
 

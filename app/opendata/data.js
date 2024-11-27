@@ -22,6 +22,12 @@ const data = [
         description: "Spreadsheet of Kikuhama building types showcasing the urban changes over time.",
         link: "/2024kikuhamamapsheet.csv",
         year: 2024
+    },
+    {
+        title: "Shirahige Daijin Shrine 3D Scans & Interactive Map",
+        description: "The project explored revitalizing Shirahige Daijin shrine by creating an interactive map with 3D scans, photographs, and soundscapes, while researching revitalization practices and gathering community input.",
+        link: "https://digital.wpi.edu/concern/student_works/3t945v35c?locale=en",
+        year: 2022
     }
 ]
 

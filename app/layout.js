@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Kyoto Project Center",
-  description: "Collaborating on real-world projects in Kyoto to address urban, cultural, and sustainability challenges.",
+  authors: "Collaborating on real-world projects in Kyoto to address urban, cultural, and sustainability challenges.",
 };
 
 export default function RootLayout({ children }) {
