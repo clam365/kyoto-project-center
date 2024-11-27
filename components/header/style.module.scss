@@ -17,8 +17,8 @@
 
   .bar {
     display: flex;
-    justify-content: space-between; /* Spread items across the bar */
-    align-items: center; /* Ensure vertical alignment */
+    justify-content: space-between;
+    align-items: center;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 400;
@@ -48,7 +48,7 @@
       justify-content: center;
       gap: 12px;
       cursor: pointer;
-      padding: 10px; /* Increased clickable area */
+      padding: 10px;
       position: relative;
 
       .label {
@@ -65,8 +65,8 @@
       }
 
       .burger {
-        width: 30px; /* Increased size */
-        height: 4px; /* Increased height of the burger lines */
+        width: 30px;
+        height: 4px;
         position: relative;
         pointer-events: none;
         transition: transform 0.3s ease-in-out;
@@ -74,7 +74,7 @@
         &::after,
         &::before {
           content: "";
-          height: 4px; /* Same as the burger width for consistency */
+          height: 4px;
           width: 100%;
           background-color: black;
           position: absolute;
@@ -82,32 +82,32 @@
         }
 
         &::after {
-          top: -8px; /* Increased distance */
+          top: -8px;
         }
 
         &::before {
-          top: 8px; /* Increased distance */
+          top: 8px;
         }
       }
 
       .burgerActive {
         &::after {
           transform: rotate(45deg);
-          top: 0; /* Adjust to center the rotated line */
+          top: 0;
         }
 
         &::before {
           transform: rotate(-45deg);
-          top: 0; /* Adjust to center the rotated line */
+          top: 0;
         }
       }
 
       &:hover .burger {
-        transform: scale(1.1); /* Slight zoom effect on hover */
+        transform: scale(1.1);
       }
 
       &:hover {
-        background-color: rgba(0, 0, 0, 0.1); /* Subtle background color on hover */
+        background-color: rgba(0, 0, 0, 0.1);
       }
     }
 
