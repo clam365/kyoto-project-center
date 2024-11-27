@@ -8,7 +8,7 @@ const SearchBar = ({ searchTerm, onSearchChange }) => {
                 type="text"
                 value={searchTerm}
                 onChange={(e) => onSearchChange(e.target.value)}
-                placeholder="Search open data"
+                placeholder="Search open data by title or year"
                 className="bg-transparent ml-2 w-full outline-none text-gray-700"
             />
         </div>

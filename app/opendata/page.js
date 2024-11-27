@@ -30,7 +30,8 @@ export default function Page() {
                         <br/>
                         <br/>
                         Use the search bar above to start exploring, and discover the data that will help
-                        shape the future of Kyoto’s urban development and tourism strategies.
+                        shape the future of Kyoto’s urban development and tourism strategies through project
+                        titles or by year.
                     </p>
                 </div>
                 <div className={"w-3/4"}>
@@ -43,6 +44,7 @@ export default function Page() {
                                 title={item.title}
                                 description={item.description}
                                 link={item.link}
+                                year={item.year}
                             />
                         ))}
                     </div>

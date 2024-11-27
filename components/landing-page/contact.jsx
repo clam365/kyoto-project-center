@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function contact() {
     return (
-        <section id={"contact"} className={"bg-[#ececec] p-10 pt-16 mt-16 pb-44"}>
+        <section id={"contact"} className={"bg-[#ede8d0] p-10 pt-16 mt-16 pb-44"}>
             <div className={"grid grid-cols-1 lg:grid-cols-2"}>
                 <h1 className={"font-[500] text-3xl lg:text-4xl"}>CONTACT US FOR FURTHER INFORMATION</h1>
                 <div className={"space-y-3 mt-6 lg:mt-0"}>
