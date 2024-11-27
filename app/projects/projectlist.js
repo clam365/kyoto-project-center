@@ -143,6 +143,12 @@ const projectlist = [
         link: "https://digital.wpi.edu/concern/student_works/41687p01j?locale=en",
         year: "2023",
     },
+    {
+        title: "Mapping for the Future of Gojo Rakuen",
+        authors: "Sean Patrick Duffy, Benjamin N. Klaiman, Connor Robert Lepage, Clayton LeRoy Besch",
+        link: "https://digital.wpi.edu/concern/student_works/xp68kj66c?locale=en",
+        year: "2019"
+    },
 
 ]
 
