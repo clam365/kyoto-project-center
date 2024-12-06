@@ -7,7 +7,7 @@ export default function projects() {
             <Project
                 imageSrc="/kikuhama.webp"
                 imageAlt="Kikuhama"
-                title="URBAN CHANGE IN KIKUHAMA"
+                title="URBAN SHIFTS IN KIKUHAMA: INSIGHTS INTO TOURISM, TRAFFIC, AND COMMUNITY"
                 subtitle="Examining urban change and traffic congestion in Kikuhama"
                 year="B2024"
                 authors="Examining Kikuhama's traffic congestion, linking it to tourism, ecology, and urban development to improve quality of life."

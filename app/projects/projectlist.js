@@ -2,7 +2,7 @@ const projectlist = [
     {
         title: "Urban Shifts in Kikuhama: Insights into Tourism, Traffic, and Community",
         authors: "Christopher Lam, Syzmon Mamro, Jason Zhang, Arjun Bhat",
-        link: "",
+        link: "/kikuhama2024",
         year: 2024
     },
     {
